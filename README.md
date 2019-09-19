@@ -35,4 +35,4 @@ public class Hello {
     }
 }
 ```
-![Photo](photo.png"蠟筆小新")
+![Photo](photo.png "蠟筆小新")
