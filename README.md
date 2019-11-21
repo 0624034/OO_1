@@ -41,7 +41,7 @@ public class Hello {
 
 [![Video](https://img.youtube.com/vi/ZqwH5rcsPKE/0.jpg)](https://www.youtube.com/watch?v=ZqwH5rcsPKE "我們這一家")]
 
-'''java
+```java
 abstract class CShape
 {
     protected String color;
@@ -74,4 +74,4 @@ public class hw1121{
         ctriangle.show();
     }
 }
-'''
+```
