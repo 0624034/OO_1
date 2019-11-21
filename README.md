@@ -40,3 +40,38 @@ public class Hello {
 
 
 [![Video](https://img.youtube.com/vi/ZqwH5rcsPKE/0.jpg)](https://www.youtube.com/watch?v=ZqwH5rcsPKE "我們這一家")]
+
+'''java
+abstract class CShape
+{
+    protected String color;
+    public void setColor(String str)
+    {
+        color = str;
+    }
+    public abstract void show();
+}
+class CTriangle extends CShape
+{
+    protected double a, b, c;
+    public CTriangle(double l, double w, double h)
+    {
+        a = l;
+        b = w;
+        c = h;
+    }
+    public void show()
+    {
+        System.out.print("color="+color+", ");
+        System.out.println("area="+a*b*0.5);
+    }
+}
+public class hw1121{
+    public static void main(String args[])
+    {
+        CTriangle ctriangle = new CTriangle(3, 4, 5);
+        ctriangle.setColor("Red");
+        ctriangle.show();
+    }
+}
+'''
