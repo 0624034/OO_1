@@ -39,7 +39,7 @@ public class Hello {
 ![Photo](photo.png "蠟筆小新")
 
 
-[![Video](https://www.youtube.com/watch?v=LbgRJA-sIDs.jpg)](https://www.youtube.com/watch?v=LbgRJA-sIDs "我們這一家")]
+[![Video](https://www.youtube.com/watch?v=LbgRJA-sIDs.jpg)](https://www.youtube.com/watch?v=LbgRJA-sIDs "我們這一家")
 
 ```java
 abstract class CShape
