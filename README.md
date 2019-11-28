@@ -41,6 +41,7 @@ public class Hello {
 
 [![Video](https://img.youtube.com/vi/LbgRJA-sIDs/0.jpg)](https://www.youtube.com/watch?v=LbgRJA-sIDs "我們這一家")
 
+ * hw1121.java
 ```java
 abstract class CShape
 {
@@ -72,6 +73,48 @@ public class hw1121{
         CTriangle ctriangle = new CTriangle(3, 4, 5);
         ctriangle.setColor("Red");
         ctriangle.show();
+    }
+}
+```
+ * 1128.java
+```java
+interface Shape{
+    abstract double getArea();
+}
+class Rectangle implements Shape{
+    private double length;
+    private double width;
+    public Rectangle(double l, double w){
+        length = l;
+        width = w;
+    }
+    public double getArea(){
+        return length*width;
+    }
+    public String toString(){
+        return "Rectangle area=" + getArea();
+    }
+}
+class Triangle implements Shape{
+    private double base;
+    private double height;
+    public Triangle(double b, double h){
+        base = b;
+        height = h;
+    }
+    public double getArea(){
+        return base*height*0.5;
+    }
+     public String toString(){ 
+        return "Triangle area=" + getArea();
+    }  
+}
+public class 1128{
+    public static void main(String args[]){
+        Rectangle rec = new Rectangle(10,20);
+        System.out.println(rec);
+        Triangle tri = new Triangle(10,20);
+        System.out.println(tri);
     }
 }
 ```
