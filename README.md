@@ -126,5 +126,10 @@ class Student {
 }
 class Course {
 }
-
+public class 1205{
+    public static void main(String args[]){
+        Student stu = new Student();
+        Course cou = new Course();
+    }
+}
 ```
