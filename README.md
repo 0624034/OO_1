@@ -118,3 +118,13 @@ public class 1128{
     }
 }
 ```
+ * 1205.java
+```java
+
+class Student {
+    Course[] courses = new Course[10];
+}
+class Course {
+}
+
+```
